@@ -8,7 +8,7 @@ const Post = () => {
       <button className="postButton">134 Posts</button>
       <div className="post">
         <div className="postOne">
-          <h4 style={{ marginTop: "20px" }}>A Changing World Order</h4>
+          <h4 style={{ marginTop: "20px", fontWeight:"bold" }}>A Changing World Order</h4>
           <FontAwesomeIcon
             icon={faThumbsUp}
             style={{
@@ -31,7 +31,8 @@ const Post = () => {
               <a href="/">musing</a> by anujgosalia
             </p>
 
-            <p>August 2-2 mins Read-102 views</p>
+            <p style={{marginLeft:"10px"}}>August 2-2 mins Read-102 views</p>
+
           </div>
         </div>
 
@@ -71,7 +72,7 @@ const Post = () => {
             style={{
               color: "#e3db0d",
               marginTop: "20px",
-              marginLeft: "109px",
+              marginLeft: "105px",
               cursor: "pointer",
             }}
           />

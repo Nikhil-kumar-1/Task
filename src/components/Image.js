@@ -33,16 +33,17 @@ const Image = () => {
           </div>
         </div>
       </div>
-      <h6 style={{marginTop:"120px", marginLeft:"70px", marginBottom:"20px"}}>Co-founder & CEO at Terribly Tiny Tales</h6>
+      <h5 style={{marginTop:"120px", marginLeft:"70px"}}>Co-founder & CEO at Terribly Tiny Tales</h5>
+      <a style={{marginTop:"50px", marginLeft:"70px",}} href='/'>http://www.instagram.com/anujgosalia</a>
       <div className='followIcons'>
-      <FontAwesomeIcon icon={faStar} style={{color:'#095ef1', cursor:"pointer"}} />
-      <p>125</p>
-      <FontAwesomeIcon icon={faThumbsUp} style={{color: "#e3db0d", cursor:"pointer"}} />
-      <p>12</p>
-      <FontAwesomeIcon icon={faEye} style={{color: "#e6e6e6", cursor:"pointer"}} />
-      <p>57.8K</p>
-      <FontAwesomeIcon icon={faHeart} style={{color: "#ff0000", cursor:"pointer"}} />
-      <p>26.0K</p>
+      <FontAwesomeIcon icon={faStar} style={{color:'#095ef1', cursor:"pointer", marginRight:"10px"}} />
+      <p style={{ marginRight:"10px"}}>125</p>
+      <FontAwesomeIcon icon={faThumbsUp} style={{color: "#e3db0d", cursor:"pointer", marginRight:"10px"}} />
+      <p style={{ marginRight:"10px"}}>12</p>
+      <FontAwesomeIcon icon={faEye} style={{color: "#e6e6e6", cursor:"pointer", marginRight:"10px"}} />
+      <p style={{ marginRight:"10px"}}>57.8K</p>
+      <FontAwesomeIcon icon={faHeart} style={{color: "#ff0000", cursor:"pointer", marginRight:"10px"}} />
+      <p style={{ marginRight:"10px"}}>26.0K</p>
       </div>
     </>
   );
