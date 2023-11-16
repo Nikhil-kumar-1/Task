@@ -118,4 +118,11 @@ ul li:before {
 
 /* Media query */
 
+@media only screen and (max-width: 320px) {
+  
+  .headerButton > h3{
+   margin-right: 10px;
+  }
+}
+
 
